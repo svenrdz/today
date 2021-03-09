@@ -9,10 +9,10 @@ setup(
     author="Sven Rodriguez",
     author_email="svenbmr@gmail.com",
     packages=find_packages(),
-    entry_points={
-        "console_scripts": [
-            "today = today.today:today",
-            "dateof = today.today:dateof",
-        ]
-    },
+    # entry_points={
+    #     "console_scripts": [
+    #         "today = today.today:today",
+    #         "dateof = today.today:dateof",
+    #     ]
+    # },
 )
